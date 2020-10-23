@@ -46,7 +46,8 @@ printlr():
 This is a small recursiv function in php that walk through the nested structure and outputs the values:
 ```
 function print_lr($arr,$display="") {
-  foreach ($arr as $key => $value)  (is_array($value)||is_object($value))?print_lr($value, sprintf("%s[%s]",$display,$key)):printf("%s[%s]=%s\n",$display,$key,$value);
+  foreach ($arr as $key => $value)  
+    (is_array($value)||is_object($value))?print_lr($value, sprintf("%s[%s]",$display,$key)):printf("%s[%s]=%s\n",$display,$key,$value);
 }
 
 ```
