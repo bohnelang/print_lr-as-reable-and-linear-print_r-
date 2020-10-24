@@ -34,7 +34,7 @@ Array
 
 
 ```
-printlr():
+print_lr():
 
 [items][0][title][0][title]=Journal of Mass Spectrometry
 [items][0][title][0][language_phrases][0][value]=en
