@@ -1,6 +1,6 @@
 # PHP print_lr() 
 
-This few lines of php code outputs a strong nested array /object-tree in a readble way:
+This few lines of php code outputs a strong nested array / object-tree in a readable way:
 
 ```
 print_r():
